@@ -8,6 +8,7 @@
 
 ![image](https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/1.png | width=100)
 ![image](https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/2.png | width=100)
+<img src="https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/1.png" width="48">
 
 ## 強化學習與其他學習的不同
 - 相對於監督式學習，無需做標記資料，是透過與環境互動得到的資訊進行學習。
