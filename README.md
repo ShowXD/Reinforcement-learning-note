@@ -7,8 +7,8 @@
 - 強化學習的方式，是利用獎勵的方法，使其想辦法找到最大回報的互動方式。
 
 <p float="left">
-  <img src="/images/1.png" width="200vw" />
-  <img src="/images/2.png" width="200vw" /> 
+  <img src="/images/1.png" heigh="200vh" />
+  <img src="/images/2.png" heigh="200vh" /> 
 </p>
 
 ## 強化學習與其他學習的不同
