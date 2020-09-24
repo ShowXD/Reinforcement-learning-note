@@ -8,7 +8,7 @@
 
 <p float="left">
   <img src="/images/1.png" width="200vw" />
-  <img src="/images/1.png" width="200vw" /> 
+  <img src="/images/2.png" width="200vw" /> 
 </p>
 
 ## 強化學習與其他學習的不同
