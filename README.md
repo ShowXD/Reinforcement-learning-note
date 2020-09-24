@@ -6,13 +6,9 @@
 - 主要概念是透過有策略地與環境進行互動。
 - 強化學習的方式，是利用獎勵的方法，使其想辦法找到最大回報的互動方式。
 
-<img src="https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/1.png" width="200vw">
-
-<img src="https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/2.png" width="200vw">
-
 <p float="left">
-  <img src="https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/1.png" width="200vw" />
-  <img src="https://github.com/ShowXD/Reinforcement-learning-note/blob/master/images/1.png" width="200vw" /> 
+  <img src="/images/1.png" width="200vw" />
+  <img src="/images/1.png" width="200vw" /> 
 </p>
 
 ## 強化學習與其他學習的不同
