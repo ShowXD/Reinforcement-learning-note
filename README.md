@@ -91,3 +91,5 @@
 ##### 平均法(Sample-Average Method)
 - 將過去的獎勵取平均值
 - 用Greedy來取最大的Qt(a)當作結果
+- 採用最好的決策方法稱為Greedy Action
+缺點:過度依賴得到的結果，會失去嘗試新結果的方法
