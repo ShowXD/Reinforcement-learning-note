@@ -91,11 +91,16 @@
 - 行動獎勵就是期望值的概念
 - 我們必須不斷地累計過去的經驗，才能持續保持最好的運作結果，因此每一種決策，都有行動的價值
 
-##### 平均法(Sample-Average Method)
+##### 平均法(Sample-Average Method)、(Epsilon-Greedy)
 - 將過去的獎勵取平均值
 - 用Greedy來取最大的Qt(a)當作結果
 - 採用最好的決策方法稱為Greedy Action
+- 簡單的說讓每一次的行動，都有最大的收益
 </br>缺點:過度依賴得到的結果，會失去嘗試新結果的方法
+- Epsilon在強化學習中表示探勘的機率(exploration)
+  - 假設Epsilon為0.2
+    - 探勘(exploration)有20%機率
+    - 利用(exploitation)有80%機率
 
 ##### 過程中探索新方向(探勘)與獲取結果(利用)的權衡取捨
 - 探勘(exploration)-選擇採用其他管理方法A, B持續探勘新方向
