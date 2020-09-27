@@ -117,6 +117,8 @@
   - Greedy action(取最大)
   - Epsilon-Greedy(比Greedy多隨機探索的過程)
 
+### Epsilon-Greedy實作
+
 ```
 iterations = 100  #玩的次數
 e = 0.2  # 探勘的機率
