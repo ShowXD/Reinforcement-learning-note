@@ -111,6 +111,7 @@
 - 醫生要持續使用新的診療方法，還是決定另一個方法
 
 ### 總結
+- 缺點:短視報酬
 - 行動->獎勵->行動價值
 - 行動價值算法->平均法
 - 行動價值選擇
@@ -149,3 +150,24 @@ for t in range(0, iterations):
  total_reward += reward  
  print("機器選項:", selector, "獎勵", reward) # 顯示每次的結果
 ```
+## 馬可夫決策過程
+### 概念解析
+- 越簡單越好
+
+#### 舉例
+1. 智能體做一個動作(Action)，簡稱At
+2. 環境回饋一個狀態給智能體(State)，簡稱St+1
+3. 環境回饋一個獎勵給智能體(Reward)，簡稱Rt+1
+
+<p float="left">
+  <img src="/images/4.png" width="250vw" />
+</p>
+
+#### 小結
+- 在有限的MDPS(Markov Decision Process)裡，狀態、行動、獎勵都是有限的就能定義成一個公式
+
+<p float="left">
+  <img src="/images/5.png" width="250vw" />
+</p>
+
+### 建構概念
