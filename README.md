@@ -125,4 +125,27 @@ e = 0.2  # 探勘的機率
 N = 4  # 機器有4台
 true_rewards_data = np.random.uniform(low=0, high=0.9, size=N)  # 從0到0.9猜機率(一般來說不太會有100%所以是0.9)
 ```
+```
+if np.random.random() < e: # 用新的方法做，每個N臺的機率重新跑一次
+ random_machine_p = np.random.uniform(low=0, high=0.9, size=N) # 重設機率
+ 
+ # 隨機拿一台機器出來玩
+ selector = np.random.choice(range(0, N))  # 隨機抽一台
+ selector_p =random_machine_p[selector]  # 隨機看某一台的結果
+ if selector_p > 0.8:
+  reward = 100
+ else:
+  reward = 0
+ 
+else: # 用原本的方法做
+ selector = np.argmax(true_reward_data, e)  # 使用一開始最高的獎勵
+ reward = 100 # 直接回饋100分
+ ...
+```
 
+```
+for t in range(0, iterations):
+ selector, reward = e_greedy(true_reward_data, e) # 運作上方並輸入資料
+ total_reward += reward  
+ print("機器選項:", selector, "獎勵", reward) # 顯示每次的結果
+```
