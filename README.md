@@ -116,3 +116,13 @@
 - 行動價值選擇
   - Greedy action(取最大)
   - Epsilon-Greedy(比Greedy多隨機探索的過程)
+
+### Epsilon-Greedy實作
+
+```
+iterations = 100  #玩的次數
+e = 0.2  # 探勘的機率
+N = 4  # 機器有4台
+true_rewards_data = np.random.uniform(low=0, high=0.9, size=N)  # 從0到0.9猜機率(一般來說不太會有100%所以是0.9)
+```
+
