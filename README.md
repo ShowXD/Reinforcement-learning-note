@@ -232,7 +232,7 @@ for t in range(0, iterations):
   <img src="/images/8.png" width="250vw" />
 </p>
 
-#### 動作價值函數
+#### 動作價值函數舉例
 <p float="left">
   <img src="/images/9.png" width="250vw" />
 </p>
