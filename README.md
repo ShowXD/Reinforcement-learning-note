@@ -210,7 +210,7 @@ for t in range(0, iterations):
   <img src="/images/6.png" width="250vw" />
 </p>
 - 價值函數可以分成兩種:
-  1. 狀態價值函數(State value functions)
-  -> 運作策略下，運行時的狀態值
-  2. 動作價值函數(Action value functions)
-  -> 運作策略下，指定某個動作的價值
+  1. 狀態價值函數(State value functions)</br>
+  -> 運作策略下，運行時的狀態值</br>
+  2. 動作價值函數(Action value functions)</br>
+  -> 運作策略下，指定某個動作的價值</br>
