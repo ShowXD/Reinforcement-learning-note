@@ -217,8 +217,22 @@ for t in range(0, iterations):
   -> 運作策略下，指定某個動作的價值</br>
 
 ### 貝爾曼方程(Bellman Equations)概念
-- 是為了解決MDP(馬可夫決策過程)在連續動態運作中的最佳化方程，他的主要工作是將下面函數連結起來
+- 是為了解決MDP(馬可夫決策過程)在連續動態運作中的最佳化方程，他的主要工作是將下面函數做一個整併
   - 狀態價值函數V(s)
   - 動作價值函數Q(s,a)
-  - 新狀態V(s')
+  - 新狀態價值函數V(s')
   - 新動作價值函數Q(s',a')
+- 公式:
+<p float="left">
+  <img src="/images/7.png" width="250vw" />
+</p>
+
+#### 狀態價值函數舉例
+<p float="left">
+  <img src="/images/8.png" width="250vw" />
+</p>
+
+#### 動作價值函數舉例
+<p float="left">
+  <img src="/images/9.png" width="250vw" />
+</p>
