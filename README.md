@@ -212,5 +212,13 @@ for t in range(0, iterations):
 - 價值函數可以分成兩種:</br>
   1. 狀態價值函數(State value functions)</br>
   -> 運作策略下，運行時的狀態值</br>
+  </br>
   2. 動作價值函數(Action value functions)</br>
   -> 運作策略下，指定某個動作的價值</br>
+
+### 貝爾曼方程(Bellman Equations)概念
+- 是為了解決MDP(馬可夫決策過程)在連續動態運作中的最佳化方程，他的主要工作是將下面函數連結起來
+  - 狀態價值函數V(s)
+  - 動作價值函數Q(s,a)
+  - 新狀態V(s')
+  - 新動作價值函數Q(s',a')
