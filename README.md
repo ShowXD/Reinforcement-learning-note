@@ -211,6 +211,6 @@ for t in range(0, iterations):
 </p>
 - 價值函數可以分成兩種:
   1. 狀態價值函數(State value functions)
-  - 運作策略下，運行時的狀態值
+  -> 運作策略下，運行時的狀態值
   2. 動作價值函數(Action value functions)
-  - 運作策略下，指定某個動作的價值
+  -> 運作策略下，指定某個動作的價值
