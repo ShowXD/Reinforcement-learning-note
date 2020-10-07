@@ -209,7 +209,7 @@ for t in range(0, iterations):
 <p float="left">
   <img src="/images/6.png" width="250vw" />
 </p>
-- 價值函數可以分成兩種:
+- 價值函數可以分成兩種:</br>
   1. 狀態價值函數(State value functions)</br>
   -> 運作策略下，運行時的狀態值</br>
   2. 動作價值函數(Action value functions)</br>
