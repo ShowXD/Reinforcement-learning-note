@@ -18,3 +18,7 @@
 - [強化學習與PID的微控制](https://github.com/ShowXD/Reinforcement-learning-note/blob/master/thesis/Design%20of%20adaptive%20PID%20for%20pitch%20control.pdf)
 
 - [應用場景和主流算法](https://www.toutiao.com/i6681234203008303628/?group_id=6681234203008303628)
+
+- [人工智慧導論](https://hackmd.io/@cube/SkyvXYTqN)
+
+- [DQPID](https://github.com/IgnacioCarlucho/Double_QPID)
