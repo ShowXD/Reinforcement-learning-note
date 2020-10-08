@@ -22,3 +22,4 @@
 - [人工智慧導論](https://hackmd.io/@cube/SkyvXYTqN)
 
 - [DQPID](https://github.com/IgnacioCarlucho/Double_QPID)
+- [成熟的PID控制基於強化學習在風力渦輪機上的運用](https://github.com/ShowXD/Reinforcement-learning-note/blob/master/thesis/Adaptive%20PID%20Controller%20Based%20on%20Reinforcement%20Learning%20for%20Wind.pdf)
